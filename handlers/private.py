@@ -27,7 +27,7 @@ async def start(_, message: Message):
                             
                     InlineKeyboardButton(
                             text="𝐒𝐭𝐚𝐭𝐮𝐬 🥀",
-                            url=f"https://t.me/@Statusforyoubby")
+                            url=f"https://t.me/Statusforyoubby")
                ],
                [
                         InlineKeyboardButton(
