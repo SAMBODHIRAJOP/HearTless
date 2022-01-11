@@ -17,31 +17,37 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/W2h_Ravan")
-                  ],[
+                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            url=f"https://t.me/eSport_BOTs")
+               ],
+               [
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁🌎❱", url="https://t.me/W2H_Userbot"
-                    ),
+                            text="𝐒𝐦𝐨𝐊𝐞𝐫 🚬",
+                            url=f"https://t.me/Sanki_Owner"),
+                            
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽🚩❱", url="https://t.me/W2HSupport"
-                    )
-                ],[ 
-                    InlineKeyboardButton(
-                        "❰𝗖𝗼𝗺𝗺𝗮𝗱𝘀🥀❱", url="https://t.me/W2HSupport"
-                    )]
+                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
+                            url=f"https://t.me/Smoker_Feelings")
+               ],
+               [
+                        InlineKeyboardButton(
+                            text="𝐆𝐫𝐨𝐮𝐩⭐",
+                            url=f"https://t.me/EsportClan")
+                   
+                ]
             ]
         ),
      disable_web_page_preview=True
     )
 
-@Client.on_message(filters.command("W2h") & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command("smoker") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**𝐖𝟐𝐡 ❤️ 𝐌𝐮𝐬𝐢𝐜'𝐗  🚬 𝐎𝐧𝐥𝐢𝐧𝐞\n🌠𝐖𝟐𝐡_𝐎𝐩 🥀**""",
+      await message.reply_text("""**𝐒𝐦𝐨𝐤𝐞𝐫 💜 𝐌𝐮𝐬𝐢𝐜'𝐗  🚬 𝐎𝐧𝐥𝐢𝐧𝐞 🥀 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 :- ✨ [❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬 💜🐬](https://t.me/sanki_owner)**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝗦𝘂𝗽𝗽𝗼𝗿𝘁❤️", url="https://t.me/W2H_Userbot")
+                        "❛-𝐌𝐫'𝐒𝐦𝐎𝐤𝐞𝐫 🚬 💜🐬", url="https://t.me/sanki_owner")
                 ]
             ]
         )
