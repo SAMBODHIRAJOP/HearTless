@@ -230,7 +230,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/Mrabhijeet143")
+                            url=f"https://t.me/pagal_pantii")
                    
                 ]
             ]
@@ -260,7 +260,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/Mrabhijeet143")
+                            url=f"https://t.me/pagal_pantii")
                    
                 ]
             ]
@@ -328,7 +328,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/Mrabhijeet143")
+                            url=f"https://t.me/pagal_pantii")
                    
                 ]
             ]
